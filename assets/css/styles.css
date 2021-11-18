@@ -400,6 +400,7 @@ img {
   grid-template-columns: max-content;
 }
 
+.info__link,
 .social__link {
   display: inline-flex;
   align-items: center;
@@ -575,7 +576,7 @@ img {
 @media screen and (max-width: 320px) {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem, 0.5rem;
+    gap: 1rem;
   }
 }
 
@@ -597,7 +598,7 @@ img {
 
   .resume {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.65fr 1fr;
     background-color: var(--container-color);
     box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
   }
@@ -628,10 +629,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .languages__content {
-    grid-template-columns: repeat(3, max-content);
-    column-gap: 3.5rem;
-  }
+  /*.languages__content {*/
+  /*  grid-template-columns: repeat(3, max-content);*/
+  /*  column-gap: 3.5rem;*/
+  /*}*/
 
   .interests__container {
     grid-template-columns: repeat(4, max-content);
